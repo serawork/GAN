@@ -2,7 +2,6 @@ from __future__ import print_function, division
 import os, gzip, cv2
 import six.moves.cPickle as pickle
 #os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-from keras.datasets import mnist
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, multiply, GaussianNoise
 from keras.layers import BatchNormalization, Activation, Embedding, ZeroPadding2D, GlobalAveragePooling2D
 from tensorflow.keras.layers import LeakyReLU
